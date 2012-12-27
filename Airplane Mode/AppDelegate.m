@@ -12,12 +12,13 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
-    
+    // Insert code here to initialize your application    
 }
 
 - (void) awakeFromNib
 {
+    [self deduplicateRunningInstances];
+    
     NSString *path = [[NSBundle mainBundle] pathForResource:@"icon" ofType:@"png"];
     NSImage *image = [[NSImage alloc] initWithContentsOfFile:path];
     [image setMatchesOnlyOnBestFittingAxis:YES];
@@ -27,6 +28,13 @@
     [statusItem setImage:image];
     [statusItem setMenu:statusMenu];
     [statusItem setHighlightMode:YES];    
+}
+
+- (void) deduplicateRunningInstances
+{
+	if ([[NSRunningApplication runningApplicationsWithBundleIdentifier:[[NSBundle mainBundle] bundleIdentifier]] count] > 1) {        
+		[NSApp terminate:nil];
+	}
 }
 
 - (IBAction)turnOnAirplaneMode:(id)sender
