@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5094CEC8168C9EC80049DF3C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5094CEC7168C9EC80049DF3C /* icon@2x.png */; };
+		5094CECB168CA5450049DF3C /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5094CECA168CA5450049DF3C /* IOBluetooth.framework */; };
+		5094CECD168CA9760049DF3C /* CoreWLAN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5094CECC168CA9760049DF3C /* CoreWLAN.framework */; };
+		5094CEDD168CAD650049DF3C /* airplane.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 5094CEDC168CAD650049DF3C /* airplane.iconset */; };
+		50FE0DEC168C8E71009E46DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FE0DEB168C8E71009E46DA /* Cocoa.framework */; };
+		50FE0DF6168C8E71009E46DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50FE0DF4168C8E71009E46DA /* InfoPlist.strings */; };
+		50FE0DF8168C8E71009E46DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FE0DF7168C8E71009E46DA /* main.m */; };
+		50FE0DFC168C8E71009E46DA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 50FE0DFA168C8E71009E46DA /* Credits.rtf */; };
+		50FE0DFF168C8E71009E46DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FE0DFE168C8E71009E46DA /* AppDelegate.m */; };
+		50FE0E02168C8E71009E46DA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50FE0E00168C8E71009E46DA /* MainMenu.xib */; };
+		50FE0E12168C979E009E46DA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50FE0E10168C979E009E46DA /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5094CEC7168C9EC80049DF3C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		5094CEC9168C9F370049DF3C /* Airplane Mode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Airplane Mode.entitlements"; sourceTree = "<group>"; };
+		5094CECA168CA5450049DF3C /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		5094CECC168CA9760049DF3C /* CoreWLAN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreWLAN.framework; path = System/Library/Frameworks/CoreWLAN.framework; sourceTree = SDKROOT; };
+		5094CEDC168CAD650049DF3C /* airplane.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = airplane.iconset; sourceTree = "<group>"; };
+		50FE0DE7168C8E71009E46DA /* Airplane Mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Airplane Mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50FE0DEB168C8E71009E46DA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		50FE0DEE168C8E71009E46DA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		50FE0DEF168C8E71009E46DA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		50FE0DF0168C8E71009E46DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50FE0DF3168C8E71009E46DA /* Airplane Mode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Airplane Mode-Info.plist"; sourceTree = "<group>"; };
+		50FE0DF5168C8E71009E46DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50FE0DF7168C8E71009E46DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50FE0DF9168C8E71009E46DA /* Airplane Mode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Airplane Mode-Prefix.pch"; sourceTree = "<group>"; };
+		50FE0DFB168C8E71009E46DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		50FE0DFD168C8E71009E46DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50FE0DFE168C8E71009E46DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50FE0E01168C8E71009E46DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		50FE0E10168C979E009E46DA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50FE0DE4168C8E71009E46DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5094CECD168CA9760049DF3C /* CoreWLAN.framework in Frameworks */,
+				5094CECB168CA5450049DF3C /* IOBluetooth.framework in Frameworks */,
+				50FE0DEC168C8E71009E46DA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50FE0DDC168C8E71009E46DA = {
+			isa = PBXGroup;
+			children = (
+				5094CEDC168CAD650049DF3C /* airplane.iconset */,
+				50FE0DF1168C8E71009E46DA /* Airplane Mode */,
+				50FE0DEA168C8E71009E46DA /* Frameworks */,
+				50FE0DE8168C8E71009E46DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50FE0DE8168C8E71009E46DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50FE0DE7168C8E71009E46DA /* Airplane Mode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50FE0DEA168C8E71009E46DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5094CECC168CA9760049DF3C /* CoreWLAN.framework */,
+				5094CECA168CA5450049DF3C /* IOBluetooth.framework */,
+				50FE0DEB168C8E71009E46DA /* Cocoa.framework */,
+				50FE0DED168C8E71009E46DA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50FE0DED168C8E71009E46DA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50FE0DEE168C8E71009E46DA /* AppKit.framework */,
+				50FE0DEF168C8E71009E46DA /* CoreData.framework */,
+				50FE0DF0168C8E71009E46DA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		50FE0DF1168C8E71009E46DA /* Airplane Mode */ = {
+			isa = PBXGroup;
+			children = (
+				5094CEC9168C9F370049DF3C /* Airplane Mode.entitlements */,
+				50FE0DFD168C8E71009E46DA /* AppDelegate.h */,
+				50FE0DFE168C8E71009E46DA /* AppDelegate.m */,
+				50FE0E00168C8E71009E46DA /* MainMenu.xib */,
+				50FE0E10168C979E009E46DA /* icon.png */,
+				5094CEC7168C9EC80049DF3C /* icon@2x.png */,
+				50FE0DF2168C8E71009E46DA /* Supporting Files */,
+			);
+			path = "Airplane Mode";
+			sourceTree = "<group>";
+		};
+		50FE0DF2168C8E71009E46DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50FE0DF3168C8E71009E46DA /* Airplane Mode-Info.plist */,
+				50FE0DF4168C8E71009E46DA /* InfoPlist.strings */,
+				50FE0DF7168C8E71009E46DA /* main.m */,
+				50FE0DF9168C8E71009E46DA /* Airplane Mode-Prefix.pch */,
+				50FE0DFA168C8E71009E46DA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50FE0DE6168C8E71009E46DA /* Airplane Mode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50FE0E05168C8E71009E46DA /* Build configuration list for PBXNativeTarget "Airplane Mode" */;
+			buildPhases = (
+				50FE0DE3168C8E71009E46DA /* Sources */,
+				50FE0DE4168C8E71009E46DA /* Frameworks */,
+				50FE0DE5168C8E71009E46DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Airplane Mode";
+			productName = "Airplane Mode";
+			productReference = 50FE0DE7168C8E71009E46DA /* Airplane Mode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50FE0DDE168C8E71009E46DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = jnlin;
+			};
+			buildConfigurationList = 50FE0DE1168C8E71009E46DA /* Build configuration list for PBXProject "Airplane Mode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50FE0DDC168C8E71009E46DA;
+			productRefGroup = 50FE0DE8168C8E71009E46DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50FE0DE6168C8E71009E46DA /* Airplane Mode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50FE0DE5168C8E71009E46DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FE0DF6168C8E71009E46DA /* InfoPlist.strings in Resources */,
+				50FE0DFC168C8E71009E46DA /* Credits.rtf in Resources */,
+				50FE0E02168C8E71009E46DA /* MainMenu.xib in Resources */,
+				50FE0E12168C979E009E46DA /* icon.png in Resources */,
+				5094CEC8168C9EC80049DF3C /* icon@2x.png in Resources */,
+				5094CEDD168CAD650049DF3C /* airplane.iconset in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50FE0DE3168C8E71009E46DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FE0DF8168C8E71009E46DA /* main.m in Sources */,
+				50FE0DFF168C8E71009E46DA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50FE0DF4168C8E71009E46DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50FE0DF5168C8E71009E46DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50FE0DFA168C8E71009E46DA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50FE0DFB168C8E71009E46DA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		50FE0E00168C8E71009E46DA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50FE0E01168C8E71009E46DA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50FE0E03168C8E71009E46DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		50FE0E04168C8E71009E46DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		50FE0E06168C8E71009E46DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Airplane Mode/Airplane Mode-Prefix.pch";
+				INFOPLIST_FILE = "Airplane Mode/Airplane Mode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50FE0E07168C8E71009E46DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Airplane Mode/Airplane Mode-Prefix.pch";
+				INFOPLIST_FILE = "Airplane Mode/Airplane Mode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50FE0DE1168C8E71009E46DA /* Build configuration list for PBXProject "Airplane Mode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FE0E03168C8E71009E46DA /* Debug */,
+				50FE0E04168C8E71009E46DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50FE0E05168C8E71009E46DA /* Build configuration list for PBXNativeTarget "Airplane Mode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FE0E06168C8E71009E46DA /* Debug */,
+				50FE0E07168C8E71009E46DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50FE0DDE168C8E71009E46DA /* Project object */;
+}
