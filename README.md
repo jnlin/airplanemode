@@ -8,7 +8,9 @@ Icon from: http://www.iconfinder.com/icondetails/41929/128/air_airport_plane_ico
 Download
 --------
 
+https://www.dropbox.com/s/5n5wfcawl5uqew5/Airplane%20Mode%201.0.zip
 
+MD5 (Airplane Mode 1.0.zip) = 122aab436db6af4fd3841c01b7cdddfa
 
 License
 -------
