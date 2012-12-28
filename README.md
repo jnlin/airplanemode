@@ -15,7 +15,7 @@ MD5 (Airplane Mode 1.0.zip) = 122aab436db6af4fd3841c01b7cdddfa
 Screenshot
 ---------
 
-![Screenshot](docs/screenshot.png)
+![Screenshot](https://raw.github.com/jnlin/airplanemode/master/docs/screenshot.png)
 
 License
 -------
