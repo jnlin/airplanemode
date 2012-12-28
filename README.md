@@ -11,6 +11,7 @@ Download
 https://www.dropbox.com/s/5n5wfcawl5uqew5/Airplane%20Mode%201.0.zip
 
 MD5 (Airplane Mode 1.0.zip) = 122aab436db6af4fd3841c01b7cdddfa
+
 SHA256 (Airplane Mode 1.0.zip) = 987f665ca9e111a9f2036ab243d147a3440d07f1312954024710bbe75fe61ff7
 
 Screenshot
